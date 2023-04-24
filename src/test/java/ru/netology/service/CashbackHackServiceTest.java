@@ -25,6 +25,7 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
 
     }
+
     @Test
     public void testRemainIf0() {
         int amount = 0;
@@ -34,6 +35,7 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
 
     }
+
     @Test
     public void testRemainIfMoreThan1000() {
         int amount = 1800;
@@ -43,6 +45,7 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
 
     }
+
     @Test
     public void testRemainIf3000() {
         int amount = 3000;
